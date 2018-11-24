@@ -8,7 +8,7 @@
 *.elf
 
 # Fortran module files
-*.mod
+
 
 # Linker output
 *.ilk
@@ -59,3 +59,9 @@ dkms.conf
 
 # editor backup files
 *~
+
+#Doxygen subdirectories
+docs/
+
+# vim temp
+*.swp
