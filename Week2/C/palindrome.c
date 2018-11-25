@@ -21,10 +21,10 @@
  * Note that the empty string is considered a palindrome.
  */
 #include <err.h>
-#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "palindrome.h"
 
 /*!
  * @def EXIT_CL_ARG_MISSING
@@ -33,11 +33,10 @@
  */
 #define EXIT_CL_ARG_MISSING 1
 
-bool is_palindrome(char str[]);
-
 /*!
  * @brief application's main function
  */
+/*
 int main(int argc, char *argv[]) {
     if (argc != 2)
         errx(EXIT_CL_ARG_MISSING,
@@ -46,6 +45,7 @@ int main(int argc, char *argv[]) {
            argv[1], is_palindrome(argv[1]) ? "a" : "not a");
     return EXIT_SUCCESS;
 }
+*/
 
 /*!
  * @brief checks whether the given string is a palindrome
